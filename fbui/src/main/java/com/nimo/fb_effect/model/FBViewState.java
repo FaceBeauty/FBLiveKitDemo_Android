@@ -1,0 +1,47 @@
+package com.nimo.fb_effect.model;
+
+/**
+ * 面板可处的状态
+ */
+public enum FBViewState {
+  HIDE,//隐藏
+  MODE,//供您选择
+  BEAUTY_HAIR,//美发
+  AR,//AR道具
+  BEAUTY,//美颜
+  FILTER,//滤镜
+
+  STICKER,//贴纸
+  MASK,//面具
+
+  BEAUTY_SKIN,//美肤
+  BEAUTY_FACE_TRIM,//美肤——美型
+  FILTER_HAHA,//哈哈镜
+  FILTER_STYLE,
+  AR_PROP,//道具
+  AR_STICKER,//贴纸
+  AR_MASK,//面具
+  AR_GIFT,//礼物
+  AR_WATERMARK,//水印
+  FILTER_EFFECT,//特效滤镜
+    FACE_SHAPE,//脸型
+    LIGHT_MAKEUP, //轻美妆
+    BEAUTY_MAKE_UP,//美妆
+    MAKEUP_OUT,
+    MAKEUP_LIPSTICK,//口红
+    MAKEUP_EYEBROW,//眉毛
+    MAKEUP_BLUSH,//腮红
+    MAKEUP_EYESHADOW,//眼影
+    MAKEUP_EYELINE,//眼线
+    MAKEUP_EYELASH,//睫毛
+    MAKEUP_BEAUTYPUPILS,//美瞳
+    BEAUTY_BODY,//美体
+    PORTRAIT_AI,//ai抠图
+    GREENSCREEN_SIMILARITY,//相似度
+    GREENSCREEN_SMOOTHNESS,//平滑度
+    GREENSCREEN_ALPHA,//透明度
+    GREENSCREEN_DECOLOR,//祛色度
+    GREENSCREEN_BACKGROUND,//背景
+    PORTRAIT,//人像抠图
+
+    }

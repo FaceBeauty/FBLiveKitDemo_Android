@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                 }
             },
         )
-        //todo --facebeauty--start--2
+        //todo --facebeauty--end--2
         binding.run {
             url.editText?.text = SpannableStringBuilder(urlString)
             token.editText?.text = SpannableStringBuilder(tokenString)

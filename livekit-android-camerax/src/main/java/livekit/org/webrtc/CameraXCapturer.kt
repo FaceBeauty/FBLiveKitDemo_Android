@@ -109,11 +109,6 @@ internal class CameraXCapturer(
                         return
                     }
 
-                    FBEffect.shareInstance().setFilter(0, "biaozhun", 100)//Set filter
-                    FBEffect.shareInstance().setReshape(21,100)//Set the V-shaped face to 100.
-                    FBEffect.shareInstance().setReshape(22,100)//The face-slimming setting is 100.
-                    FBEffect.shareInstance().setReshape(20,100)//The face-slimming setting is 100
-                    FBEffect.shareInstance().setARItem(0,"sticker_effect_apple")//Set Apple stickers.
                     val processedId = FBEffect.shareInstance().processTextureOES(
                         textureBuffer.textureId,
                     )

@@ -19,8 +19,10 @@ package io.livekit.android.sample
 import android.media.projection.MediaProjectionManager
 import android.os.Bundle
 import android.os.Parcelable
+import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.EditText
+import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
@@ -29,6 +31,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.nimo.fb_effect.FBPanelLayout
+import com.nimo.fb_effect.fragment.FBBeautyFragment
+import com.nimo.fb_effect.model.FBViewState
 import com.xwray.groupie.GroupieAdapter
 import io.livekit.android.sample.common.R
 import io.livekit.android.sample.databinding.CallActivityBinding
@@ -208,6 +213,20 @@ class CallActivity : AppCompatActivity() {
         binding.debugMenu.setOnClickListener {
             showDebugMenuDialog(viewModel)
         }
+        //todo --facebeauty--start--6
+       val  FBPanelLayout = FBPanelLayout(this).init(getSupportFragmentManager())
+        addContentView(
+            FBPanelLayout,
+            FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT,
+            ),
+        )
+        FBPanelLayout.showPanel(FBViewState.BEAUTY);//beauty-beautyShape-filter
+//        FBPanelLayout.showPanel(FBViewState.MASK);//MASK
+//        FBPanelLayout.showPanel(FBViewState.STICKER);//STICKER
+//        FBPanelLayout.showPanel(FBViewState.LIGHT_MAKEUP);//Light beauty makeup
+        //todo --facebeauty--end--6
     }
 
     override fun onResume() {
