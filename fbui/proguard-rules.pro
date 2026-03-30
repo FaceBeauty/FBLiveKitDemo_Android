@@ -85,3 +85,9 @@
 -keep class * implements com.google.gson.TypeAdapterFactory
 -keep class * implements com.google.gson.JsonSerializer
 -keep class * implements com.google.gson.JsonDeserializer
+
+# Keep FBPanelLayout and its public methods
+-keep class com.nimo.fb_effect.FBPanelLayout { *; }
+-keepclassmembers class com.nimo.fb_effect.FBPanelLayout {
+    public <methods>;
+}

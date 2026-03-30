@@ -1,0 +1,180 @@
+{
+    "effect_filter": [
+        {
+            "title": "原图",
+            "title_en": "Original",
+            "name": "0",
+            "icon": "yuantu_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "灵魂出窍",
+            "title_en": "Special1",
+            "name": "1",
+            "icon": "lhcq_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "黑白电影",
+            "title_en": "Special2",
+            "name": "2",
+            "icon": "hbdy_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "魔法镜面",
+            "title_en": "Special3",
+            "name": "3",
+            "icon": "mfjm_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "炫彩抖动",
+            "title_en": "Special4",
+            "name": "4",
+            "icon": "xcdd_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "头晕目眩",
+            "title_en": "Special5",
+            "name": "5",
+            "icon": "tymx_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "动感分屏",
+            "title_en": "Special6",
+            "name": "6",
+            "icon": "dgfp_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "四宫格",
+            "title_en": "Special7",
+            "name": "7",
+            "icon": "sfp_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "四屏镜像",
+            "title_en": "Special8",
+            "name": "8",
+            "icon": "spjx_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "毛玻璃",
+            "title_en": "Special9",
+            "name": "9",
+            "icon": "maoboli_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "边界模糊",
+            "title_en": "Special10",
+            "name": "10",
+            "icon": "bkmh_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "模糊分屏",
+            "title_en": "Special11",
+            "name": "11",
+            "icon": "mhfp_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "瞬间石化",
+            "title_en": "Special12",
+            "name": "12",
+            "icon": "sjsh_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "轻彩抖动",
+            "title_en": "Special13",
+            "name": "13",
+            "icon": "qcdd_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "一键乐高",
+            "title_en": "Special14",
+            "name": "14",
+            "icon": "yjlg_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "九宫格",
+            "title_en": "Special15",
+            "name": "15",
+            "icon": "jgg_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "反光镜",
+            "title_en": "Special16",
+            "name": "16",
+            "icon": "fgj_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "虚拟镜像",
+            "title_en": "Special17",
+            "name": "17",
+            "icon": "xnjx_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "幻觉残影",
+            "title_en": "Special18",
+            "name": "18",
+            "icon": "hjcy_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "三分屏",
+            "title_en": "Special19",
+            "name": "19",
+            "icon": "sanfp_icon.png",
+            "category": "default",
+            "download": 2
+        },
+        {
+            "title": "碎玻璃",
+            "title_en": "Special20",
+            "name": "20",
+            "icon": "sbl_icon.png",
+            "category": "default",
+            "download": 2
+        },
+      {
+        "title": "黑白",
+        "title_en": "Special21",
+        "name": "21",
+        "icon": "black_white.png",
+        "category": "default",
+        "download": 2
+      }
+    ]
+}
